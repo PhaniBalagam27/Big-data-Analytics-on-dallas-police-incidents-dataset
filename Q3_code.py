@@ -78,8 +78,9 @@ with open('/root/q3data_2/q3_Complainant_table.csv','wb') as i:
 i.close()
 
 
-
+# Closing hive context
 sqlContext.close()
+
 
 sc.close()
 
